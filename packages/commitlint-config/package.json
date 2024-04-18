@@ -8,9 +8,16 @@
     "lint"
   ],
   "author": "Huangjunsen <951434130@qq.com>",
-  "homepage": "",
+  "homepage": "https://github.com/Huang-junsen/js-encode-fe-spec#readme",
   "license": "ISC",
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huang-junsen/js-encode-fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Huang-junsen/js-encode-fe-spec/issues"
   }
 }
