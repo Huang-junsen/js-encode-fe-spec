@@ -1,0 +1,16 @@
+{
+  "name": "commitlint-config",
+  "version": "1.0.0",
+  "description": "璟胜科技 Git规范",
+  "keywords": [
+    "encode",
+    "commit",
+    "lint"
+  ],
+  "author": "Huangjunsen <951434130@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^7.0.2"
+  }
+}
