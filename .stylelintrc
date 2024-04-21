@@ -1,3 +1,3 @@
 {
-  "extends": "@junsen/stylelint-config"
+  "extends": "@huangjunsen/stylelint-config"
 }
