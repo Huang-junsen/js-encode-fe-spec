@@ -19,7 +19,8 @@
     "lint": "markdownlint README.md",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "docs:preview": "vitepress preview docs",
-    "package_create": "ts-node ./scripts/create_package.ts"
+    "package_create": "ts-node ./scripts/create_package.ts",
+    "publish-all": "pnpm publish --filter \"./packages/*\" --access public --recursive"
   },
   "keywords": [
     "encode",
