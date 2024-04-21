@@ -1,5 +1,5 @@
 {
-  "name": "@junsen/eslint-plugin",
+  "name": "@huangjunsen/eslint-plugin",
   "version": "1.0.0",
   "description": "自定义eslint插件",
   "scripts": {

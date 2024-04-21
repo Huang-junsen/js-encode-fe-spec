@@ -14,22 +14,22 @@ importers:
       '@commitlint/cli':
         specifier: ^19.2.2
         version: 19.2.2(@types/node@20.12.7)(typescript@5.0.4)
-      '@junsen/commitlint-config':
+      '@huangjunsen/commitlint-config':
         specifier: workspace:^
         version: link:packages/commitlint-config
-      '@junsen/encode-fe-lint':
+      '@huangjunsen/encode-fe-lint':
         specifier: workspace:^
         version: link:packages/encode-fe-lint
-      '@junsen/eslint-config':
+      '@huangjunsen/eslint-config':
         specifier: workspace:^
         version: link:packages/eslint-config
-      '@junsen/eslint-plugin':
+      '@huangjunsen/eslint-plugin':
         specifier: workspace:^
         version: link:packages/eslint-plugin
-      '@junsen/markdownlint-config':
+      '@huangjunsen/markdownlint-config':
         specifier: workspace:^
         version: link:packages/markdownlint-config
-      '@junsen/stylelint-config':
+      '@huangjunsen/stylelint-config':
         specifier: workspace:^
         version: link:packages/stylelint-config
       '@types/node':
@@ -86,16 +86,16 @@ importers:
       '@commitlint/cli':
         specifier: ^16.3.0
         version: 16.3.0
-      '@junsen/commitlint-config':
+      '@huangjunsen/commitlint-config':
         specifier: workspace:^
         version: link:../commitlint-config
-      '@junsen/eslint-config':
+      '@huangjunsen/eslint-config':
         specifier: workspace:^
         version: link:../eslint-config
-      '@junsen/markdownlint-config':
+      '@huangjunsen/markdownlint-config':
         specifier: workspace:^
         version: link:../markdownlint-config
-      '@junsen/stylelint-config':
+      '@huangjunsen/stylelint-config':
         specifier: workspace:^
         version: link:../stylelint-config
       '@typescript-eslint/eslint-plugin':

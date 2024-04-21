@@ -1,7 +1,7 @@
 import path from 'path';
 import glob from 'glob';
 import markdownLint from 'markdownlint';
-import markdownLintConfig from '@junsen/markdownlint-config';
+import markdownLintConfig from '@huangjunsen/markdownlint-config';
 import type { ScanOptions, PKG, Config } from '../../types';
 
 type LintOptions = markdownLint.Options & { fix?: boolean };

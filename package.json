@@ -1,5 +1,5 @@
 {
-  "name": "@junsen/fe-spec-monorepo",
+  "name": "@huangjunsen/fe-spec-monorepo",
   "private": true,
   "description": "前端编码规范工程化",
   "scripts": {
@@ -31,12 +31,12 @@
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@commitlint/cli": "^19.2.2",
-    "@junsen/commitlint-config": "workspace:^",
-    "@junsen/encode-fe-lint": "workspace:^",
-    "@junsen/eslint-config": "workspace:^",
-    "@junsen/eslint-plugin": "workspace:^",
-    "@junsen/markdownlint-config": "workspace:^",
-    "@junsen/stylelint-config": "workspace:^",
+    "@huangjunsen/commitlint-config": "workspace:^",
+    "@huangjunsen/encode-fe-lint": "workspace:^",
+    "@huangjunsen/eslint-config": "workspace:^",
+    "@huangjunsen/eslint-plugin": "workspace:^",
+    "@huangjunsen/markdownlint-config": "workspace:^",
+    "@huangjunsen/stylelint-config": "workspace:^",
     "@types/node": "^20.12.7",
     "fs-extra": "^11.2.0",
     "husky": "^9.0.11",

@@ -1,5 +1,5 @@
 {
-  "name": "@junsen/commitlint-config",
+  "name": "@huangjunsen/commitlint-config",
   "version": "1.0.0",
   "description": "Git规范",
   "main": "index.js",

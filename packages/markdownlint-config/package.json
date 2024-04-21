@@ -1,5 +1,5 @@
 {
-  "name": "@junsen/markdownlint-config",
+  "name": "@huangjunsen/markdownlint-config",
   "version": "1.0.0",
   "main": "index.json",
   "description": "markdown文档规范",
