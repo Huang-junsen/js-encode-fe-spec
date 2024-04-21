@@ -5,7 +5,6 @@ import fs from 'fs-extra';
 const pkg: Record<string, any> = JSON.parse(
   fs.readFileSync(path.join(__dirname, '../../package.json'), 'utf8'),
 );
-console.log(pkg);
 
 export enum UNICODE {
   success = '\u2714', // ✔

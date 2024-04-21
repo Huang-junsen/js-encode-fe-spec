@@ -10,8 +10,6 @@ import { PKG_NAME, PKG_VERSION } from '../utils/constants';
 const checkLatestVersion = async (): Promise<string | null> => {
   const npm = await npmType;
   const latestVersion = execSync(`${npm} view ${PKG_NAME} version`).toString('utf-8').trim();
-
-  console.log(npm, latestVersion);
   
   if (PKG_VERSION === latestVersion) return null;
 
