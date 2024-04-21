@@ -1,7 +1,8 @@
 {
-  "name": "commitlint-config",
+  "name": "@junsen/commitlint-config",
   "version": "1.0.0",
-  "description": "璟胜科技 Git规范",
+  "description": "Git规范",
+  "main": "index.js",
   "keywords": [
     "encode",
     "commit",

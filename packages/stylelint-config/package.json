@@ -1,0 +1,39 @@
+{
+  "name": "@junsen/stylelint-config",
+  "version": "1.0.0",
+  "description": "CSS规范",
+  "keywords": [
+    "encode",
+    "style",
+    "lint"
+  ],
+  "author": "Huangjunsen <951434130@qq.com>",
+  "homepage": "https://github.com/Huang-junsen/js-encode-fe-spec#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "test": "__tests__"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huang-junsen/js-encode-fe-spec.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/Huang-junsen/js-encode-fe-spec/issues"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "stylelint": "15.11.0",
+    "stylelint-config-standard": "34.0.0",
+    "stylelint-config-standard-scss": "11.1.0",
+    "stylelint-scss": "5.3.2"
+  }
+}

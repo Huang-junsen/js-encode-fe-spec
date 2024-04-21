@@ -1,0 +1,3 @@
+{
+  "extends": "@junsen/stylelint-config"
+}

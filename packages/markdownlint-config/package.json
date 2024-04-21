@@ -1,8 +1,8 @@
 {
-  "name": "js-encode-fe-markdownlint-config",
+  "name": "@junsen/markdownlint-config",
   "version": "1.0.0",
   "main": "index.json",
-  "description": "璟胜科技 文档规范",
+  "description": "markdown文档规范",
   "keywords": [
     "encode",
     "markdown",

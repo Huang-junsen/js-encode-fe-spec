@@ -1,21 +1,25 @@
 {
-  "name": "js-encode-fe-spec",
+  "name": "@junsen/fe-spec-monorepo",
   "private": true,
-  "description": "璟胜科技--前端编码规范工程化",
+  "description": "前端编码规范工程化",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
     "init": "pnpm install",
-    "clean": "lerna clean && rm -rf node_modules",
-    "test": "lerna run test",
-    "build": "lerna run build --stream",
+    "clean": "pnpm -r exec -- rm -rf node_modules",
+    "clean:global": "pnpm -r exec -- rm -rf node_modules && rm -rf pnpm-lock.yaml && rm -rf node_modules",
+    "test": "pnpm -r run test",
+    "test:changed": "pnpm -r --filter={changed} run test",
+    "build": "pnpm -r --sort --stream run build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "deploy": "bash deploy.sh",
-    "publish": "lerna publish",
+    "publish": "pnpm -r publish --access public",
+    "update-changelog": "changeset version",
     "lint": "markdownlint README.md",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "package_create": "ts-node ./scripts/create_package.ts"
   },
   "keywords": [
     "encode",
@@ -24,17 +28,28 @@
   "author": "Junsen",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@commitlint/cli": "^19.2.2",
+    "@junsen/commitlint-config": "workspace:^",
+    "@junsen/encode-fe-lint": "workspace:^",
+    "@junsen/eslint-config": "workspace:^",
+    "@junsen/eslint-plugin": "workspace:^",
+    "@junsen/markdownlint-config": "workspace:^",
+    "@junsen/stylelint-config": "workspace:^",
+    "@types/node": "^20.12.7",
+    "fs-extra": "^11.2.0",
     "husky": "^9.0.11",
-    "lerna": "^8.1.2",
     "markdownlint": "^0.34.0",
-    "vitepress": "^1.1.0"
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.5.2",
+    "typedoc": "^0.24.7",
+    "typescript": "5.0.4",
+    "vitepress": "^1.1.0",
+    "vue-template-compiler": "^2.7.14"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "dependencies": {
-    "vue": "^3.4.23"
   }
 }

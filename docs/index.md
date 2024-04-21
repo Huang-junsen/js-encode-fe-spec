@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "js-encode-fe-spec"
   text: ""
-  tagline: This project is an internal engineering project of Jingsheng Technology
+  tagline: 开发过程中总结的编码规范，方便一次性接入eslint、stylelint、markdownlint、commitlint
   # actionText: 立刻进入 →
   # actionLink: /coding/html.md
   actions:

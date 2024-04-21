@@ -1,6 +1,14 @@
+<!--
+ * @Author: Huangjunsen 951434130@qq.com
+ * @Date: 2024-04-18 17:56:24
+ * @LastEditors: Huangjunsen 951434130@qq.com
+ * @LastEditTime: 2024-04-21 02:50:38
+ * @FilePath: \前端工程化\js-encode-fe-spec\README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # js-encode-fe-spec
 
-璟胜科技 前端编码规范工程化
+前端编码规范工程化
 
 ## :mountain: 能力支持
 
@@ -22,6 +30,6 @@
 
 ## :email: 联系
 
-- **广州璟胜科技有限公司官网**: <http://www.gzjstech.com>
+- **email**: <951434130@qq.com>
 
-</br>
+

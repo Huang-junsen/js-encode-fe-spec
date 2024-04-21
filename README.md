@@ -1,6 +1,6 @@
 # js-encode-fe-spec
 
-璟胜科技 前端编码规范工程化
+前端编码规范工程化
 
 ## :mountain: 能力支持
 
@@ -22,6 +22,4 @@
 
 ## :email: 联系
 
-- **广州璟胜科技有限公司官网**: <http://www.gzjstech.com>
-
-</br>
+- **email**: <951434130@qq.com>
