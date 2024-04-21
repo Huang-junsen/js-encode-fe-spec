@@ -139,18 +139,18 @@ export default async (options: InitOptions) => {
     pkg.scripts = {};  // 如果没有scripts字段，初始化为空对象
   }
   if (!pkg.scripts[`${PKG_NAME}-scan`]) {
-    pkg.scripts[`${PKG_NAME}-scan`] = `${PKG_NAME} scan`;  // 添加scan脚本
+    pkg.scripts[`${PKG_NAME.split("/").pop()}-scan`] = `${PKG_NAME.split("/").pop()} scan`;  // 添加scan脚本
   }
   if (!pkg.scripts[`${PKG_NAME}-fix`]) {
-    pkg.scripts[`${PKG_NAME}-fix`] = `${PKG_NAME} fix`;  // 添加fix脚本
+    pkg.scripts[`${PKG_NAME.split("/").pop()}-fix`] = `${PKG_NAME.split("/").pop()} fix`;  // 添加fix脚本
   }
 
   // 配置 commit 卡点
   log.info(`Step ${++step}. 配置 git commit 卡点`);  // 记录配置git钩子的日志
   if (!pkg.husky) pkg.husky = {};  // 如果没有husky字段，初始化为空对象
   if (!pkg.husky.hooks) pkg.husky.hooks = {};  // 如果没有hooks字段，初始化为空对象
-  pkg.husky.hooks['pre-commit'] = `${PKG_NAME} commit-file-scan`;  // 设置pre-commit钩子
-  pkg.husky.hooks['commit-msg'] = `${PKG_NAME} commit-msg-scan`;  // 设置commit-msg钩子
+  pkg.husky.hooks['pre-commit'] = `${PKG_NAME.split("/").pop()} commit-file-scan`;  // 设置pre-commit钩子
+  pkg.husky.hooks['commit-msg'] = `${PKG_NAME.split("/").pop()} commit-msg-scan`;  // 设置commit-msg钩子
   fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2));  // 写入修改后的package.json
   log.success(`Step ${step}. 配置 git commit 卡点成功 :D`);  // 记录成功日志
 

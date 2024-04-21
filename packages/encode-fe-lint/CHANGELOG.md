@@ -4,6 +4,12 @@
 
 ### Major Changes
 
+- 1.0.5
+
+## 2.0.0
+
+### Major Changes
+
 - 1.0.4
 
 ### Major Changes
