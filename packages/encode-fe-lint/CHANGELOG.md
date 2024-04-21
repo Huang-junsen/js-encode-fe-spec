@@ -1,5 +1,11 @@
 # @huangjunsen/encode-fe-lint
 
+## 2.0.0
+
+### Major Changes
+
+- 1.0.4
+
 ### Major Changes
 
 - 1.0.3
