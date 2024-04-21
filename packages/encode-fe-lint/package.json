@@ -1,6 +1,6 @@
 {
   "name": "@huangjunsen/encode-fe-lint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "前端编码规范工程化标准脚手架",
   "bin": {
     "${name}": "lib/cli.js"
