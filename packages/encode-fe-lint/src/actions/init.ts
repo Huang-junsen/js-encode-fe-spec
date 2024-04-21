@@ -138,10 +138,10 @@ export default async (options: InitOptions) => {
   if (!pkg.scripts) {
     pkg.scripts = {};  // 如果没有scripts字段，初始化为空对象
   }
-  if (!pkg.scripts[`${PKG_NAME}-scan`]) {
+  if (!pkg.scripts[`${PKG_NAME.split("/").pop()}-scan`]) {
     pkg.scripts[`${PKG_NAME.split("/").pop()}-scan`] = `${PKG_NAME.split("/").pop()} scan`;  // 添加scan脚本
   }
-  if (!pkg.scripts[`${PKG_NAME}-fix`]) {
+  if (!pkg.scripts[`${PKG_NAME.split("/").pop()}-fix`]) {
     pkg.scripts[`${PKG_NAME.split("/").pop()}-fix`] = `${PKG_NAME.split("/").pop()} fix`;  // 添加fix脚本
   }
 
